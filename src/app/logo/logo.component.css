@@ -3,5 +3,7 @@
   position: absolute;
   top: 4px;
   left: 5%;
-  width: 15em;
+  width: 10%;
+  min-width: 100px;
+  min-height: 50px;
 }

@@ -1,3 +1,13 @@
-<p>
-  userslist works!
-</p>
+<div class="userslist_wrapper">
+  <div class="userslist">
+    <h1>{{title}}</h1>
+    <ul class="userslist">
+      <li *ngFor="let user of users"
+          [class.selected]="user === selectedUser"
+          (click)="onSelect(user)">
+        <span class="badge">{{user.id}}</span> {{user.firstname}} {{user.lastname}}
+      </li>
+    </ul>
+  </div>
+  <app-user-details [user]="selectedUser"></app-user-details>
+</div>
