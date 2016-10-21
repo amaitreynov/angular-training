@@ -1,0 +1,38 @@
+@font-face {font-family: "Rhanoll";
+  src: url("//db.onlinewebfonts.com/t/1e92cb0060a4435907962dc43ed41b48.eot");
+  src: url("//db.onlinewebfonts.com/t/1e92cb0060a4435907962dc43ed41b48.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/1e92cb0060a4435907962dc43ed41b48.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/1e92cb0060a4435907962dc43ed41b48.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/1e92cb0060a4435907962dc43ed41b48.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/1e92cb0060a4435907962dc43ed41b48.svg#Rhanoll") format("svg");
+}
+
+nav ul{
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+  list-style-color: none;
+  background-color: black;/*#333333;*/
+  text-align: center;
+  border: 1px solid #CCCCCC;
+}
+
+nav li{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/*.separator{
+  border-right: 1px solid #CCCCCC;
+}*/
+
+nav li a{
+  text-decoration: none;
+  color: white;
+  font-family: Rhanoll;
+  font-size: 2em;
+}
